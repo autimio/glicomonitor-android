@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#020459</color>
+    <color name="colorPrimaryDark">#020330</color>
+    <color name="colorAccent">#2e2e2e</color>
+    <color name="colorBackgroundPrincipal">#e2ebf4</color>
+    <color name="colorLinhaAzul">#4347fa</color>
+
+    <string-array name="refeicao_arrays">
+        <item>Café da manhã</item>
+        <item>Brunch</item>
+        <item>Almoço</item>
+        <item>Lanche</item>
+        <item>Jantar</item>
+        <item>Sobremesa</item>
+        <item>Ceia</item>
+    </string-array>
+
+</resources>

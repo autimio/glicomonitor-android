@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:textSize="5dp"
+        android:background="@color/colorLinhaAzul"/>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp"
+        android:orientation="vertical"
+        tools:context=".views.RegistroActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registro Glico Monitor"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:layout_margin="10dp"/>
+
+        <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_marginBottom="5sp"
+                android:padding="5dp"
+                android:hint="Nome"
+                android:textSize="20dp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:textSize="20dp"
+                android:hint="Data de nascimento:"
+                android:padding="5dp"
+                android:layout_marginBottom="5dp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:layout_marginBottom="5sp"
+                android:padding="5dp"
+                android:hint="E-mail:"
+                android:textSize="20dp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idSenha"
+                android:padding="5dp"
+                android:inputType="numberPassword"
+                android:hint="Senha:"
+                android:textSize="20dp"
+                android:layout_marginBottom="5dp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/idVerificaSenha"
+                android:padding="5dp"
+                android:inputType="numberPassword"
+                android:hint="Confirme sua senha:"
+                android:textSize="20dp"
+                android:layout_marginBottom="10sp"/>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_margin="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:id="@+id/voltamain"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_azul"
+            android:text="Criar conta"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:textSize="5dp"
+            android:background="@color/colorLinhaAzul"/>
+
+        <ImageView
+            android:id="@+id/glico_image_button"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/glico"
+            android:background="@drawable/circle" />
+
+        <TextView
+            android:id="@+id/text_glicose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="120dp"
+            android:text="Registros de Glicose"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#302e2e"/>
+
+        <ImageView
+            android:id="@+id/imc_image_button"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/imc"
+            android:layout_below="@id/glico_image_button"
+            android:background="@drawable/circle"/>
+
+        <TextView
+            android:id="@+id/text_imc"
+            android:layout_below="@id/glico_image_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="120dp"
+            android:text="Registros de IMC"
+            android:textStyle="bold"
+            android:textColor="#302e2e"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:id="@+id/insulina_image_button"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/imc_image_button"
+            android:layout_marginLeft="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/insulina"
+            android:background="@drawable/circle"/>
+
+        <TextView
+            android:id="@+id/text_insulina"
+            android:layout_below="@id/imc_image_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="42dp"
+            android:layout_marginLeft="120dp"
+            android:text="Registros de Insulina"
+            android:textStyle="bold"
+            android:textColor="#302e2e"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:id="@+id/imc_image_dashboard"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/insulina_image_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/dashboard"
+            android:background="@drawable/circle"/>
+
+        <TextView
+            android:id="@+id/text_dashboard"
+            android:layout_below="@id/insulina_image_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="43dp"
+            android:layout_marginLeft="120dp"
+            android:text="Dashboard"
+            android:textStyle="bold"
+            android:textColor="#302e2e"
+            android:textSize="20dp"/>
+
+</RelativeLayout >
